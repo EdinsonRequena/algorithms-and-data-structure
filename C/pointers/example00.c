@@ -2,12 +2,12 @@
 int main()
 
 {
-	int a;
-	int *a_pointer;
+	int b = 5;
+	int *b_pointer = NULL;
 
-	a = 5;
-	a_pointer = &a;
+	b_pointer = &b;
 
-	printf("Valor de a: %d \n", a);
-	printf("Valor de a_pointer: %d \n", a_pointer);
+	printf("The b value is: %d. \n The *b_pointer values is: %d. \n", b, *b_pointer);
+	printf("the b's memory direction is: %p \n", &b);
+	printf("the b_pointer's memory direction is: %p \n", b_pointer);
 }
