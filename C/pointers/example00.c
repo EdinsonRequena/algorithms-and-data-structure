@@ -2,12 +2,12 @@
 int main()
 
 {
-	int y;
-	int *yPtr;
+	int a;
+	int *a_pointer;
 
-	y = 5;
-	yPtr = &y;
+	a = 5;
+	a_pointer = &a;
 
-	printf("Valor de y: %d \n", y);
-	printf("Valor de yPtr: %d \n", yPtr);
+	printf("Valor de a: %d \n", a);
+	printf("Valor de a_pointer: %d \n", a_pointer);
 }
