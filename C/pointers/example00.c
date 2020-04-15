@@ -10,4 +10,6 @@ int main()
 	printf("The b value is: %d. \n The *b_pointer values is: %d. \n", b, *b_pointer);
 	printf("the b's memory direction is: %p \n", &b);
 	printf("the b_pointer's memory direction is: %p \n", b_pointer);
+
+	return 0;
 }
