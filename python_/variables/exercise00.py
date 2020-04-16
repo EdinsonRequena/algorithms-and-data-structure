@@ -4,7 +4,7 @@ def main():
     serie = input("What's your favorite serie?: ")
     seasons = int(input("How much seasons have?: "))
     number_chap = int(input("How much chapter have?: "))
-    duration_chap = int(input("How much hour the chapter have?: "))
+    duration_chap = int(input("How much minuts chapters have?: "))
 
     total = seasons * number_chap * duration_chap / 60
 
