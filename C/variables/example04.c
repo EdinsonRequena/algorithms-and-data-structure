@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    double euros = 0.92, dollars = 100;
+    double euros = 0.92, dollars;
 
     printf("Enter the dollar amount: ");
     scanf("%lf", &dollars);
