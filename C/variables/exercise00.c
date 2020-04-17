@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char serie;
-    double total, seasons, number_chap, duration_chap, duration_intro;
+    double total, seasons, number_chap, duration_chap;
 
     printf("**********Think in a serie**************\n");
 
