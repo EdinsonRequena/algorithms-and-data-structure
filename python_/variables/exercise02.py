@@ -25,7 +25,7 @@ def main():
 
     game4 = input("What's the game?: ")
     time4 = float(input(f"How many hours did you play {game4}?: "))
-    price4 = int(input(f"How many dollars did you spend in the {game4}?: "))
+    price4 = float(input(f"How many dollars did you spend in the {game4}?: "))
 
     print("-------------------------------------------------------------------")
 
