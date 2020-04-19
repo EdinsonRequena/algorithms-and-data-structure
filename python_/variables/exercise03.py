@@ -50,7 +50,6 @@ def logic():
     print(f"The games {game1}, {game2}, {game3}, {game4}, {game5} cost you {total} the hour")
   
 
-
 def main():
     cli()
     logic()
