@@ -1,3 +1,10 @@
+/*
+
+We are going to make a program that allows us to encrypt 
+the characters that the user enters, one by one.
+
+*/
+
 #include <stdio.h>
 
 int main() {
