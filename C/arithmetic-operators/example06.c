@@ -1,6 +1,6 @@
 /*
 
-Type casting
+Type cast
 
 */
 
