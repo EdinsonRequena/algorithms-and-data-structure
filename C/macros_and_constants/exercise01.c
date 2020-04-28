@@ -17,35 +17,43 @@ Your weight in Vulcano is: 100.10 kg.
 
 #include <stdio.h>
 
+#define JUPITER 24.55
+#define VENUS 8.87
+#define URANO 8.887
+#define MARTE 3.71
+#define TIERRA 9.8
+#define SATURNO 10.44
+#define NEPTUNO 11.15
+#define MERCURIO 3.7
+
 int main() {
-    double jupiter = 24.55, venus = 8.87, urano = 8.887, marte = 3.71, mercurio = 3.7, tierra = 9.8,saturno = 10.44, neptuno = 11.15;
-    double peso, masa;
+    double peso_final, peso_tierra;
 
     printf("--------Know your weight in another planets-------\n");
 
     printf("What's your weight on earth?: \n");
-    scanf("%lf", &masa);
+    scanf("%lf", &peso_tierra);
 
-    peso = (masa * jupiter) / tierra;
-    printf("Your weight in jupiter is:%lf\n", peso);
+    peso_final = (peso_tierra * JUPITER) / TIERRA;
+    printf("Your weight in jupiter is:%lf\n", peso_final);
 
-    peso = (masa * venus) / tierra;
-    printf("Your weight in jupiter is:%lf\n", peso);
+    peso_final = (peso_tierra * VENUS) / TIERRA;
+    printf("Your weight in jupiter is:%lf\n", peso_final);
 
-    peso = (masa * urano) / tierra;
-    printf("Your weight in urano is:%lf\n", peso);
+    peso_final = (peso_tierra * URANO) / TIERRA;
+    printf("Your weight in urano is:%lf\n", peso_final);
 
-    peso = (masa * marte) / tierra;
-    printf("Your weight in mars is:%lf\n", peso);
+    peso_final = (peso_tierra * MARTE) / TIERRA;
+    printf("Your weight in mars is:%lf\n", peso_final);
 
-    peso = (masa * mercurio) / tierra;
-    printf("Your weight in mercury is:%lf\n", peso);
+    peso_final = (peso_tierra * MERCURIO) / TIERRA;
+    printf("Your weight in mercury is:%lf\n", peso_final);
 
-    peso = (masa * saturno) / tierra;
-    printf("Your weight in saturn is:%lf\n", peso);
+    peso_final = (peso_tierra * SATURNO) / TIERRA;
+    printf("Your weight in saturn is:%lf\n", peso_final);
 
-    peso = (masa * neptuno) / tierra;
-    printf("Your weight in neptune is:%lf\n", peso);
+    peso_final = (peso_tierra * NEPTUNO) / TIERRA;
+    printf("Your weight in neptune is:%lf\n", peso_final);
 
     return 0;
 }
