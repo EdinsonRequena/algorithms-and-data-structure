@@ -38,7 +38,7 @@ int main() {
     printf("Your weight in jupiter is:%lf\n", peso_final);
 
     peso_final = (peso_tierra * VENUS) / TIERRA;
-    printf("Your weight in jupiter is:%lf\n", peso_final);
+    printf("Your weight in venus is:%lf\n", peso_final);
 
     peso_final = (peso_tierra * URANO) / TIERRA;
     printf("Your weight in urano is:%lf\n", peso_final);
