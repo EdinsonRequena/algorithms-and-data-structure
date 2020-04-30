@@ -8,6 +8,7 @@ Inicializando tablas
 
 #define TABLE1 3
 #define TABLE2 5
+#define TABLE3 25
 
 int main() {
 
@@ -21,7 +22,8 @@ int main() {
     int datos2[TABLE2] = {5, 10, 8}; // Si el numero de inicializadores es inferior a la dimension de la tabla el compilador interpreta
                                     // que estos inicializadores son los primeros elementos de la tabla y el restante se ponen a 0
                                     // {5, 10, 8, 0, 0}
-    int datos3[];
+
+    int datos3[TABLE3] = {0}; // En este ejemplo datos3 tiene una dimension de 25 elementos, todos ellos con el valor 0
 
     return 0;
 }
