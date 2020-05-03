@@ -3,7 +3,7 @@
 Escriba un programa que calcule la media de puntos obtenidos en las últimas 5 partidas de tu videojuego favorito 
 con 3 de tus jugadores favoritos. Usando vectores
 
--------------------------------------------------------------------------------------
+-------------------------------------Problema resuelto por pasos------------------------------------------------
 
 1) declarar 3 constantes con el nombre de los jugadores y un         
 valor de 5
