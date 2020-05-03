@@ -1,7 +1,7 @@
 /*
 
 Escriba un programa que calcule la media de puntos obtenidos en las últimas 5 partidas de tu videojuego favorito 
-con 3 de tus jugadores favoritos.
+con 3 de tus jugadores favoritos. Usando vectores
 
 -------------------------------------------------------------------------------------
 
