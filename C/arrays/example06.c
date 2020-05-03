@@ -7,7 +7,7 @@ Matriz o tablas bidemensionales
 #include <stdio.h>
 
 int main() {
-    int num[2][4] = {{3, 9}, {12, 1, 5}}; // Esta es una matriz de 2 filas y 3 columnas
+    int num[2][4] = {{3, 9}, {12, 1, 5}}; // Esta es una matriz de 2 filas y 4 columnas
                                           // primera fila = {3, 9, 0, 0}, segunda fila = {12, 1, 5, 0}
     int deter;
 
