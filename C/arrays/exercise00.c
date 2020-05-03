@@ -25,7 +25,7 @@ valor de 5
 6) formula para sacar el promedio en el codigo
 	a) declarar 3 variables que almacenen el resultado de las
 	   ecuaciones
-	b) como hacer que las variables anteriors almacenen el resultado?
+	b) como hacer que las variables anteriores almacenen el resultado?
 		*) sumar todos los indices del vector
 		*) dividir esa suma entre el numero de indices (en este caso
 		    en especifico sera 5)
