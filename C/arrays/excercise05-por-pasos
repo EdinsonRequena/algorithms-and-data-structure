@@ -26,7 +26,7 @@ Crear un programa que permita a un usuario jugar a hundir la flota de manera sim
 	a) llevarlo a codigo
 		*) int fila, columna
 		*) printf("fila: ")
-		*) scanf("%d", fila)
+		*) scanf("%d", &fila)
 		*) repetir con columna
 
 	b) Al usuario le pedimos que introduzca un número de fila y columna, 		pero nosotros tenemos que traducirlo al lenguaje de tablas; es decir, 		restarle 1 a las filas y columnas, pues a la primera se accede con [0].
