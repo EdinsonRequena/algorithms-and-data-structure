@@ -21,7 +21,7 @@ int main() {
     char nombre[TAM];
 
     printf("Escribe tu nombre: ");
-    scanf('%s', nombre);
+    scanf('%s', nombre); // cuando leemos cadenas de caracteres con scanf() no hay que utilizar el símbolo ampersand (&) delante de la variable.
 
     printf("Hola, %s.", nombre);
 
