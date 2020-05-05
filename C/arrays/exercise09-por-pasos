@@ -17,13 +17,13 @@ Escribir un programa que pida una palabra y después un número inferior al tama
 		*) scanf('%s', vector) NO utilizar el símbolo ampersand(&)
 		*) printf("Longitud: %d", strlen(vector))
 
-5) Pedir al usuario la longitud en la que quiera recortar la palabra anteriormente ingresada e ingresar ese valor en la variable int anteriormente creada. Supongamos que la palabra ha sido Holanda
+5) Pedir al usuario la longitud en la que quiera recortar la palabra anteriormente ingresada e ingresar ese valor en la variable int anteriormente creada.
 	a) ejemplo de codigo:
 		*) int var
 		*) printf("recorte la palabra: ")
 		*) scanf('%d', &var) SI utilizar el símbolo ampersand(&)
 
-6) Recortar la logintud de la palabra, mostar por pantalla la palabra recortada y su nueva longitud. Supongamos que el usuario ha ingresado el entero 5
+6) Recortar la logintud de la palabra, mostar por pantalla la palabra recortada y su nueva longitud. El valor entero que ha ingresado el usuario se tiene que igual al codigo ASCII 0
 	a) ejemplo de codigo:
     		*) vector[var-1] = 0;
    		*) printf("La palabra recortada es: %s\n", vector);
