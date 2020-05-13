@@ -84,9 +84,9 @@ typedef struct
 	int user_level;
 	int exp;
 	char champ_name[LON];
-	float kills;
-	float deaths;
-	float assists;
+	int kills;
+	int deaths;
+	int assists;
 } user1;
 
 int main() {
@@ -105,23 +105,23 @@ int main() {
 	scanf("%d", &user.exp);
 
 	printf("How much kills do you hve: ?");
-	scanf("%f", &user.kills);
+	scanf("%d", &user.kills);
 
 	printf("How mouch deaths do you hace: ?");
-	scanf("%f", &user.deaths);
+	scanf("%d", &user.deaths);
 
 	printf("How much assists do you have: ?");
-	scanf("%f", &user.assists);
+	scanf("%d", &user.assists);
 
-    float kda = (user.kills + user.assists) / user.deaths;
+    float kda = (float)(user.kills + user.assists) / user.deaths;
 
     printf("name%s\n", user.user_name);
     printf("champion%s\n", user.champ_name);
     printf("level%d\n", user.user_level);
     printf("exp%d\n", user.exp);
-    printf("kills%f\n", user.kills);
-    printf("deaths%f\n", user.deaths);
-    printf("assists%f\n", user.assists);
+    printf("kills%d\n", user.kills);
+    printf("deaths%d\n", user.deaths);
+    printf("assists%d\n", user.assists);
     printf("kda%f\n", kda);
 
     return 0;
