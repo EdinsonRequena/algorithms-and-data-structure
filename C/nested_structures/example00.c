@@ -1,3 +1,9 @@
+/*
+
+nested structures
+
+*/
+
 #include <stdio.h>
 
 #define MAX_STR 128
