@@ -30,28 +30,28 @@ Para obtener dicho dato es necesario sumar por un lado los asesinatos de los cin
 	a) solicitar datos:
 		*)Ejemplo en codigo:
 
-			printf("Name: ");
-    			fgets(game[0].name, MAX_STR, stdin);
+    			printf("Name: ");
+    			scanf("%s", &game[0].name);
 
     			printf("Champion: ");
-   			fgets(game[0].champion, MAX_STR, stdin);
+    			scanf("%s", &game[0].champion);
 
 			printf("kills: ");
-    			fgets(game[0].kills, MAX_STR, stdin);
+    			scanf("%d", &game[0].kills);
 
     			printf("deaths: ");
-   			fgets(game[0].deaths, MAX_STR, stdin);
+    			scanf("%d", &game[0].deaths);
 
     			printf("assists: ");
-   			fgets(game[0].assists, MAX_STR, stdin);
+    			scanf("%d", &game[0].assists);
 			// y asi hasta completar todos los jugadores
 
 	b)Sacar ratio y motrarlo por pantalla
 		*)Ejemplo en codigo:
 
-		player1_ratio = (float)(game[0].kills + game[0].assists)/game[0].deaths;
-		printf("Ratio player1%f", player1_ratio);
-		// repetir con el resto de jugadores
+    			float player1_ratio = (float)(game[0].kills + game[0].assists)/game[0].deaths;
+			printf("Ratio player1 %f\n", player1_ratio);o);
+			// repetir con el resto de jugadores
 
 5)Sumar el KDA de todos los jugadores, sacar el ratio de ese KDA y mostrarlo por pantalla.
 	a)Sumar KDA y sacar el ratio
